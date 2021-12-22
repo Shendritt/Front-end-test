@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+
+  <style>
+
+body{
+    margin: 0px;
+    background-color: #b3e0ff;
+    font-size: 16px;
+    font-family: arial;
+  }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  #0052a3;
+
+}
+
+li {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color:  #0066cc;
+  color: black;
+}
+.active {
+  background-color:  #003366;
+}
+
+
+
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 50px;  
+}
+
+button {
+  background-color: #336699;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 80px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 30px; 
+
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img {
+  width: 40%;
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+
+.container {
+  margin-left: 560px;
+  position: center;
+border: solid 5px;
+border-color:#336699; 
+  padding: 16px;
+  width: 400px;
+  height: 450px;
+  background-color: #b2cbe3;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+span.psw {
+  float: right; 
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+body{
+  text-align: center;
+}
+
+
+.footer {
+   overflow: hidden;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #0052a3;
+   color: white;
+   text-align: center;
+}
+
+
+</style>
+</head>
+<body>
+
+
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="#Product">Products</a></li>
+  <li><a href="contact.html">Contact us</a></li>
+  <li><a class="active" href="login.html">Login</a></li>
+</ul>
+
+
+  <div class="container">
+      <img src="login.png" alt="img" class="img"><br>
+    <label for="uname"><b>Username</b></label>
+    <input type="text"  name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password"  name="psw" required>
+        
+    <button type="submit">Login</button>
+
+</div>
+
+
+
+
+<div class="footer">
+  <p>Copyright © 2021 Web Inc. All rights reserved.</p>
+</div>
+
+</body>
+</html>

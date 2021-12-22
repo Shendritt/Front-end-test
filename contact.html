@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact us  </title>
+
+  <style>
+
+body{
+    margin: 0px;
+    background-color: #b3e0ff;
+    font-size: 16px;
+    font-family: arial;
+  }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  #0052a3;
+
+}
+
+li {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color:  #0066cc;
+  color: black;
+}
+.active {
+  background-color:  #003366;
+}
+.form{
+margin: 50px 50px 50px 50px;
+padding: 30px 30px 30px 30px;
+ }
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #26527d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #003366;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+
+
+
+.footer {
+   overflow: hidden;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #0052a3;
+   color: white;
+   text-align: center;]
+}
+
+
+</style>
+</head>
+<body>
+
+
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="#Product">Products</a></li>
+  <li><a class="active" href="contact.html">Contact us</a></li>
+  <li><a href="login.html">Login</a></li>
+</ul>
+
+
+
+<div class="form">
+  <form action="">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+    <label for="lname">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your email..">
+    
+    <label for="lname">Phone Number</label>
+    <input type="text" id="phone" name="phone" placeholder="Your phone number..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Kosovo</option>
+      <option value="canada">Albania</option>
+      <option value="usa">USA</option>
+    </select>
+    
+    <textarea placeholder="Leave a message..." place rows="8" cols="90" for="lname"></textarea>
+   
+ 
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<div class="footer">
+  <p>Copyright © 2021 Web Inc. All rights reserved.</p>
+</div>
+
+</body>
+</html>
